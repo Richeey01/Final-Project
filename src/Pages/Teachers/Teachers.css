@@ -1,0 +1,82 @@
+.main {
+  background-color: #2cb5a0;
+  display: flex;
+  flex-direction: column; /* Устанавливаем вертикальное размещение */
+  gap: 20px; /* Отступ между верхним и нижним рядами */
+  padding: 20px;
+  width: auto;
+
+}
+/* Цвет слов */
+.main p{
+  color: black;
+}
+
+.top-row {
+  display: flex; /* Горизонтальное размещение карточек сверху */
+  justify-content: space-between;
+}
+
+.bottom-row{
+  display: flex; /* Центрируем фиолетовую карточку */
+  justify-content: space-around;
+}
+
+
+.middle {
+  display: flex; /* Центрируем фиолетовую карточку */
+  justify-content: space-around;
+}
+
+.card-client {
+  background-color: #7cdacc;
+  width: 13rem;
+  margin: 10px; /* Отступы между карточками */
+  padding: 25px 20px;
+  border: 4px solid #7cdacc;
+  box-shadow: 0 6px 10px rgba(207, 212, 222, 1);
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s ease;
+}
+
+.card-client:hover {
+  transform: translateY(-10px);
+}
+
+.user-picture {
+  overflow: hidden;
+  object-fit: cover;
+  width: 200px;
+  height: 250px;
+  border: 4px solid #7cdacc;
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.name-client {
+  margin: 0;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.name-client span {
+  display: block;
+  font-weight: 200;
+}
+
+.img {
+  width: 200px;
+  height: 250px;
+}
+
+.img1 {
+  width: 400px;
+  height: 400px;
+}

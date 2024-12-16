@@ -1,0 +1,44 @@
+header .logo {
+  width: 50px;
+  height: 50px;
+}
+
+header img {
+  object-fit: cover;
+  width: 85px;
+  height: 85px;
+  border-radius: 25%;
+ 
+}
+
+.header {
+  background-color: #023e8a;
+  padding: 10px;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+}
+
+.nav-button {
+  background: #0077b6;
+  border: 1px solid #61dafb;
+  color: #90e0ef;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+
+  
+}
+
+.nav-button:hover{
+  transform: translateY(-5px);
+}
+
+
