@@ -5,16 +5,41 @@ import './Home.css'
 const Home = () => {
   return (
     <div className='main'>
-      <h1>Добро пожаловать на главную страницу</h1>
-      <div id='map'>
-        <h2 >Наш адрес: улица Исы Ахунбаева, 125/2</h2>
-        <div className='map' style={{ position: "relative", overflow: "hidden" }}><a href="https://yandex.com/maps/org/mezhdunarodny_universitet_it_i_biznesa_salymbekov_universitet/66522248690/?utm_medium=mapframe&utm_source=maps" style={{ color: "#eee", fontSize: "12px", position: "absolute", top: "0px" }}>Международный университет IT и бизнеса Салымбеков Университет</a>
-          <a href="https://yandex.com/maps/10309/bishkek/category/university/184106140/?utm_medium=mapframe&utm_source=maps" style={{ color: "#eee", fontSize: "12px", position: "absolute", top: "14px" }}>ВУЗ в Бишкеке</a>
-          <iframe src="https://yandex.com/map-widget/v1/?ll=74.599518%2C42.843478&mode=poi&poi%5Bpoint%5D=74.600128%2C42.844206&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D66522248690&z=17.7" width="450" height="300" frameborder="1" allowfullscreen="true" style={{ position: "relative" }}></iframe>
+      <div className="main-1">
+        <h1>Добро пожаловать на главную страницу</h1>
+        <div className="news">
+          <h1>Новости</h1>
+          <h3>Подготовка к Дню Науки в нашей школе!</h3>
+          <ol><li>
+            <p>Дорогие ученики, родители и учителя!
+
+              С радостью объявляем, что 15 марта в нашей школе состоится традиционный День Науки!
+
+              В этот день ребята примут участие в научных ярмарках, мастер-классах, а также представят свои проекты и исследования.
+
+              В программе:
+
+              Научные шоу с экспериментами;
+
+              Выставка ученических проектов;
+
+              Мастер-классы от преподавателей и гостей;
+
+              Квесты и викторины.
+
+              Приглашаем всех принять участие и проявить свой интерес к науке и творчеству.
+
+              Время проведения: 10:00 – 14:00Место: актовый зал и кабинеты 2-го этажа.
+
+              Будем рады видеть всех желающих!
+
+              Администрация школы *
+            </p></li></ol>
         </div>
       </div>
     </div>
   )
 }
+
 
 export default Home;

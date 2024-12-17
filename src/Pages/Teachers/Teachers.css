@@ -1,7 +1,7 @@
 .main {
   background-color: #2cb5a0;
   display: flex;
-  flex-direction: column; /* Устанавливаем вертикальное размещение */
+  flex-direction: column;
   gap: 20px; /* Отступ между верхним и нижним рядами */
   padding: 20px;
   width: auto;
@@ -13,18 +13,18 @@
 }
 
 .top-row {
-  display: flex; /* Горизонтальное размещение карточек сверху */
+  display: flex; 
   justify-content: space-between;
 }
 
 .bottom-row{
-  display: flex; /* Центрируем фиолетовую карточку */
+  display: flex; 
   justify-content: space-around;
 }
 
 
 .middle {
-  display: flex; /* Центрируем фиолетовую карточку */
+  display: flex; 
   justify-content: space-around;
 }
 

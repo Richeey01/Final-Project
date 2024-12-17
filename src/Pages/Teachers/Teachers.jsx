@@ -4,7 +4,7 @@ import React from 'react';
 const Teachers = () => {
   return (
     <div className="main">
-      {/* Контейнер для красных карточек */}
+     
       <div className="top-row">
         <div className="card-client">
           <div className="user-picture">
